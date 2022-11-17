@@ -1,0 +1,63 @@
+@font-face {
+    font-family: ach-regular;
+    src: url(./fonts/ach-regular.ttf);
+}
+
+@font-face {
+    font-family: elianto-regular;
+    src: url(./fonts/Elianto-Regular.otf);
+}
+
+@font-face {
+    font-family: montserrat-regular;
+    src: url(./fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: stellar-bold;
+    src: url(./fonts/PPStellar-Bold.otf);
+}
+
+@font-face {
+    font-family: nordic-regular;
+    src: url(./fonts/Nordic-Alternative-Regular.ttf);
+}
+
+html{
+    
+    box-sizing: border-box;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+
+*,*::before, *::after{
+box-sizing: inherit;
+}
+
+body{
+    font-size: 1.7rem;
+    background: #ec008c;  
+    background: -webkit-linear-gradient(to right, #fc6767, #ec008c);  
+    background: linear-gradient(to right, #fc6767, #ec008c); 
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.contenedor{
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+.toastBody {
+    font-family: montserrat-regular;
+    font-size: 12px ;
+    
+  }
+
